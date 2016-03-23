@@ -11,6 +11,7 @@ Attribute				Required    Default Value
 linebreak				No			-1
 munge					No			true
 preserveAllSemiColons	No			false
+preserveUnknownHints	No			false
 disableOptimizations	No			false
 verbose					No			false
 todir					Yes			N/A
@@ -39,6 +40,6 @@ Here's an example build file that looks for all the JavaScript files in the test
         </target>
 
 </project>
-Save the file as build.example.xml in the root directory of the project. To run it, type the following: ant -lib lib/yuicompressor-2.4.7.jar -f build.example.xml.
+Save the file as build.example.xml in the root directory of the project. To run it, type the following: ant -lib lib/yuicompressor-2.4.8.jar -f build.example.xml.
 
 The task relies on YUI Compressor so this must be specified using the -lib option.
